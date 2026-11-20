@@ -1,0 +1,51 @@
+# Query: 5000
+# ContextLines: 1
+
+11 results - 8 files
+
+ai-chatbot\chai-vibe-editor-master (2)\chai-vibe-editor-master\public\login.svg:
+  1: <svg xmlns="http://www.w3.org/2000/svg" width="372.19333" height="664.46398" viewBox="0 0 372.19333 664.46398" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" artist="Katerina Limpitsouni" source="https://undraw.co/"><rect x="5.50001" width="326" height="594" rx="58.72835" fill="#3f3d56"/><path d="M739.9038,176.50034v476.54a53.29169,53.29169,0,0,1-53.23,53.23h-208.54a53.29169,53.29169,0,0,1-53.23-53.23v-476.54a53.29173,53.29173,0,0,1,53.23-53.23h27.27v9.42a16.08093,16.08093,0,0,0,16.08,16.08c35.30487,10.66486,76.7467,9.00025,121.84,0a16.0809,16.0809,0,0,0,16.08-16.08v-9.42h27.27A53.29174,53.29174,0,0,1,739.9038,176.50034Z" transform="translate(-413.90333 -117.76801)" fill="#fff"/><path d="M417.90333,238.268a4.00459,4.00459,0,0,1-4-4v-8a4,4,0,1,1,8,0v8A4.00458,4.00458,0,0,1,417.90333,238.268Z" transform="translate(-413.90333 -117.76801)" fill="#3f3d56"/><path d="M417.90334,279.2895a4.00458,4.00458,0,0,1-4-4l0-22.02148a4,4,0,1,1,8,0l0,22.02148A4.00458,4.00458,0,0,1,417.90334,279.2895Z" transform="translate(-413.90333 -117.76801)" fill="#3f3d56"/><path d="M417.90334,312.268a4.00458,4.00458,0,0,1-4-4V286.24653a4,4,0,0,1,8,0V308.268A4.00459,4.00459,0,0,1,417.90334,312.268Z" transform="translate(-413.90333 -117.768
+
+Express.sever\.env:
+  1: PORT=5000
+  2  MONGO_URI=mongodb+srv://VISHAL:vishal9347984229@cluster0.3xlc1hp.mongodb.net/?appName=Cluster0
+
+Express.sever\express.js:
+  7  const app = express();
+  8: const PORT = process.env.PORT || 5000;
+  9  
+
+login page\chai-vibe-editor-master (2)\chai-vibe-editor-master\public\login.svg:
+  1: <svg xmlns="http://www.w3.org/2000/svg" width="372.19333" height="664.46398" viewBox="0 0 372.19333 664.46398" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" artist="Katerina Limpitsouni" source="https://undraw.co/"><rect x="5.50001" width="326" height="594" rx="58.72835" fill="#3f3d56"/><path d="M739.9038,176.50034v476.54a53.29169,53.29169,0,0,1-53.23,53.23h-208.54a53.29169,53.29169,0,0,1-53.23-53.23v-476.54a53.29173,53.29173,0,0,1,53.23-53.23h27.27v9.42a16.08093,16.08093,0,0,0,16.08,16.08c35.30487,10.66486,76.7467,9.00025,121.84,0a16.0809,16.0809,0,0,0,16.08-16.08v-9.42h27.27A53.29174,53.29174,0,0,1,739.9038,176.50034Z" transform="translate(-413.90333 -117.76801)" fill="#fff"/><path d="M417.90333,238.268a4.00459,4.00459,0,0,1-4-4v-8a4,4,0,1,1,8,0v8A4.00458,4.00458,0,0,1,417.90333,238.268Z" transform="translate(-413.90333 -117.76801)" fill="#3f3d56"/><path d="M417.90334,279.2895a4.00458,4.00458,0,0,1-4-4l0-22.02148a4,4,0,1,1,8,0l0,22.02148A4.00458,4.00458,0,0,1,417.90334,279.2895Z" transform="translate(-413.90333 -117.76801)" fill="#3f3d56"/><path d="M417.90334,312.268a4.00458,4.00458,0,0,1-4-4V286.24653a4,4,0,0,1,8,0V308.268A4.00459,4.00459,0,0,1,417.90334,312.268Z" transform="translate(-413.90333 -117.768
+
+login page\src\aapp.jsx:
+  2  
+  3: const API = 'http://localhost:5000'
+  4  
+
+my-app\src\.env:
+  1  MONGO_URI=mongodb+srv://VISHAL:vishal9347984229@cluster0.3xlc1hp.mongodb.net/shopdb?retryWrites=true&w=majority
+  2: PORT=5000
+  3  
+
+my-app\src\App.jsx:
+  365            <Server className="w-4 h-4 shrink-0" />
+  366:           <span>{serverOnline ? 'Backend Express API is Online (Port 5000)' : 'Backend is Offline (Operating in Local Mode)'}</span>
+  367          </div>
+
+  516          const timeoutId = setTimeout(() => controller.abort(), 2000);
+  517:         const res = await fetch('https://resume-back-hccx.onrender.com/api/health', {
+  518            method: 'GET',
+
+  527      checkServer();
+  528:     const interval = setInterval(checkServer, 15000);
+  529      return () => {
+
+  702                <span className={`w-2 h-2 rounded-full ${serverOnline ? 'bg-emerald-400 animate-pulse' : 'bg-amber-400'}`} />
+  703:               <span>{serverOnline ? 'Port 5000' : 'Local'}</span>
+  704              </div>
+
+vite.react.project\src\.env:
+  2  
+  3: PORT=5000
+  4  NODE_ENV=development
